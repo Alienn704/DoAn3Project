@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+<!--    chia layout r lam nhu toi hei =0dp r them cai weight= may phan do chia ti le cho man hinh la 10 phan r chia 1 cai = bao nhiu do cai bottomnavigation cho 0.75 nghe ok ok giao dien hoi cui tai code hoi sida sori hong ma' tui honq biet lam do sao nhum truong mai dink :)) cai giao dien san pham ba lam muon lam theo ma kho qua kk nao code xong r chinh ok co  len tui tin ba ukii ua ma` giao dien trang ni thoi do ha hay cai chi nua quen r them cai dang ki-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemBackground="@color/teal_700"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>
